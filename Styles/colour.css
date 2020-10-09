@@ -1,0 +1,20 @@
+.white{
+	background-color: white;
+}
+
+.cream{
+	background-color: hsl(57.4,100%,87%);
+}
+
+.transparent{
+	background-color: transparent;
+}
+
+.grey{
+	background: grey;
+	color: white;
+}
+
+.blue {
+	background: hsl(170, 95%, 93%);
+}

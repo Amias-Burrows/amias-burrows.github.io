@@ -1,0 +1,29 @@
+#name, #email, #phone{
+	border: none;
+	border-bottom: 1px solid green;
+}
+
+#body{
+	border: 1px solid green;
+	sizeable: false;
+}
+
+#name, #body{
+	width: 100%;
+}
+
+#email, #phone{
+	width: 79%;
+//38.5
+}
+
+#body{
+	height: 100px;
+}
+
+#submit{
+	width: 30%;
+	float: right;
+	background-color: green;
+	color: white;
+}

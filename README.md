@@ -1,2 +1,2 @@
 # amias-burrows.github.io
-This repository is for my personal website which shows off my services
+This is a repository for my website telling people about my services

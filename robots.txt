@@ -2,4 +2,8 @@
 User-agent: *
 Allow: /
 
+# Group 2
+User-agent: *
+Disallow: /blog/
+
 Sitemap: amias-burrows.github.io/sitemap.xml

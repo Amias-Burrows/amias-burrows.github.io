@@ -2,7 +2,6 @@ article {
 
 	padding: 0.5in 0;
 	display: grid;
-	/* grid-template-columns:[outer1] 1fr [middle1] 1.25in [inner1] 2.5in [center] 2.5in [inner2] 1.25in [middle2] 1fr [outer2]; */
 	grid-template-columns:[outer1] 16% [middle1] 16% [inner1] 18% [center] 18% [inner2] 16% [middle2] 16% [outer2];
 	margin: 0;
 }

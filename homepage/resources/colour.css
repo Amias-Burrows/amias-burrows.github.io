@@ -16,5 +16,9 @@
 }
 
 .blue {
-	background: hsl(170, 95%, 93%);
+	background: hsl(170,95%,93%);
+}
+
+.cream-blue {
+    Background: linear-gradient(mistyrose, aliceblue,skyblue);
 }

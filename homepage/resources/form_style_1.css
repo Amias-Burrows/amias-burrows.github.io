@@ -8,13 +8,8 @@
 	sizeable: false;
 }
 
-#name, #body{
+#name, #body #email{
 	width: 100%;
-}
-
-#email, #phone{
-	width: 79%;
-//38.5
 }
 
 #body{

@@ -1,4 +1,4 @@
-article {
+section {
 
 	padding: 0.5in 0;
 	display: grid;
@@ -6,7 +6,7 @@ article {
 	margin: 0;
 }
 
-article * {
+section * {
 	grid-column: middle1/middle2;
 }
 

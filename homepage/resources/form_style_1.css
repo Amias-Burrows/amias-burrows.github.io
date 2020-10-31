@@ -1,14 +1,17 @@
 #name, #email, #phone{
-	border: none;
-	border-bottom: 1px solid green;
+	border-color: #421a1a;
+	border-style: solid;
+	border-width: 0 1px 1px 0;
 }
 
 #body{
-	border: 1px solid green;
+	border-color: #421a1a;
+	border-style: solid;
+	border-width: 0 1px 1px 0;
 	sizeable: false;
 }
 
-#name, #body #email{
+#name, #body, #email{
 	width: 100%;
 }
 
@@ -19,6 +22,13 @@
 #submit{
 	width: 30%;
 	float: right;
-	background-color: green;
+	background-color: #421a1a;
 	color: white;
+	border-radius: 12px;
+	border: none;
+}
+
+#contact {
+	font-family: "Book Antiqua", serif;
+	font-size: 15px;
 }

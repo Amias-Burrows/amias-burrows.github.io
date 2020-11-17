@@ -12,6 +12,10 @@
 
 .grey {
 	background: #2B2D30;
+}
+
+.light-grey {
+	background: grey;
 	color: white;
 }
 

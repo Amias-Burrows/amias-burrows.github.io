@@ -5,5 +5,6 @@ Allow: /
 # Group 2
 User-agent: *
 Disallow: /blog/
+Disallow: /portfolio/
 
 Sitemap: amias-burrows.github.io/sitemap.xml

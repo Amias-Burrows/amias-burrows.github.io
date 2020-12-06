@@ -36,3 +36,12 @@ body{
 h4 {
 	margin-bottom: 20px;
 }
+
+.marginRemove{
+	margin: 0;
+}
+
+.paddingRemove{
+	padding-left: 0;
+	padding-right: 0;
+}

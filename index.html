@@ -11,6 +11,9 @@
 
                         <!-- Icon Image -->
 		<link href="resources/images/amias_icon.ico" rel="shortcut icon" type="image/x-icon"/>
+				<!-- Bootstrap js -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         
                         <!-- Required Stylesheets -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -40,16 +43,13 @@
 						<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-L4WGGKE73T"></script>
 		
-				<!-- Bootstrap js -->
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	</head>
 
 	<header class="white">
 		<!-- <img class="fixed" src="resources/images/Amias_logo_dark.png" alt="My Logo Dark" width="150"/> -->
 
 		<section class="white row justify-content-center" id="title">                <!-- Title and image -->
-			<div class="col-2"></div>
+			<div class="col-2" width="100%"></div>
             <h1 id="MainTitle" class="col-4">Amias Burrows</h1>
             
 			<img id="MyPicture" class="col-2" src="resources/images/Me-min.jpg" alt="Picture of Me"/>
@@ -71,7 +71,7 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbar">
+			<div class="collapse navbar-collapse" id="navbar" style="overflow-y: scroll;">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="https://www.youtube.com/playlist?list=PLSBqA9cd--1G8ybYfYUJGLp10kGPQnsnZ">My Music</a>
@@ -123,7 +123,7 @@
 
 		<section class="parallax music"></section>
 
-		<section class="grey">
+		<section class="grey" width="100%">
 			<div class="row">
 				<div class="col-12"><h4 class="bigtitle justify-content-center">Meet Amias</h4></div>
 			</div>
@@ -227,17 +227,26 @@
 			</div>
 
 			<form id="contact" method=”POST” action="mailto:amias.burrows@gmail.com">
-				<div class="form-group">
-					<label for="name">Name</label>
-					<input class="form-control" type="text" id="name" placeholder="Name" name="name">
-				</div>
-				<div class="form-group">
-					<label for="email">Email Address</label>
-					<input class="form-control" type="email" id="email" placeholder="Email Address" name="email">
-				</div>
-				<div class="form-group">
-					<label for="body">Message:</label><br/>
-					<textarea class="form-control" id="body" placeholder="Type here to begin..." name="body" rows="10" cols="30" style="resize: none"></textarea><br/>
+				<div class="row">
+					<div class="col" style="margin-right: 10px;">
+						<div class="form-group">
+							<label for="body">Message:</label><br/>
+							<textarea class="form-control" id="body" placeholder="Type here to begin..." name="body" rows="10" cols="30" style="resize: none"></textarea><br/>
+						</div>
+					</div>
+					<div class="col" style="margin-left: 10px;">
+						<div class="form-group">
+							<label for="first last">Name</label>
+							<input class="form-control" type="text" id="first" placeholder="First" name="first">
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" id="last" placeholder="Last" name="last">
+						</div>
+						<div class="form-group">
+							<label for="email">Email Address</label>
+							<input class="form-control" type="email" id="email" placeholder="Email" name="email">
+						</div>
+					</div>
 				</div>
 				<input class="btn btn-outline-dark" type="submit" id="submit">
 			</form>
@@ -245,12 +254,12 @@
 	</body>
 	
 	<footer class="light-grey">
-		<div class="footerRight">
-			<p id="footer">Copyright &copy 2020 Amias Burrows</p>
-		</div>
 
-		<div class="footerLeft">
+		<div class="footerRight" style="margin-right: 12px;">
 			<p id="footer">Built by Amias</p>
+		</div>
+		<div class="footerLeft">
+			<p id="footer">Copyright &copy 2020 Amias Burrows</p>
 		</div>
 
 				<!-- Javascript -->

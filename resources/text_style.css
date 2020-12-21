@@ -22,7 +22,6 @@ li{font: 400 1rem/1.5 "Raleway"; color: hsl(000, 0%, 33%);}
 }
 
 .bigtitle{
-	grid-column: outer1 / outer2;
 	padding-top: 30px;
 }
 

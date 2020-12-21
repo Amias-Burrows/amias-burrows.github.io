@@ -71,13 +71,13 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbar" style="overflow-y: scroll;">
+			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="https://www.youtube.com/playlist?list=PLSBqA9cd--1G8ybYfYUJGLp10kGPQnsnZ">My Music</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Socials
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -148,70 +148,69 @@
 
 		<section class="grey justify-content-center marginRemove">
 			<div class="row">
-				<div class="col-6"><h4 class="justify-content-center">Skills</h4></div>
-				<div class="col-6"><h4 class="justify-content-center">Achievements</h4></div>
+				<div class="col" style="padding-bottom:40px;"><h3>Amias'</h3></div>
 			</div>
-
 			<div class="row">
-				<div class="col-6">
-					<ul id="lileft">
-						<li class="first">Music Software</li>
-						<ul>
-							<li class="secondl"><a href="https://www.avid.com/pro-tools">Pro Tools</a></li>
-							<li class="secondl"><a href="https://www.apple.com/uk/logic-pro/">Logic Pro</a></li>
-							<li class="secondl"><a href="https://new.steinberg.net/cubase/">Cubase</a></li>
-						</ul>
-						<li class="first">Music Hardware</li>
-						<ul>
-							<li class="secondl"><a href="https://www.allen-heath.com/ahproducts/qu-32/">Allen & Heath QU-32</a></li>
-							<li class="secondl"><a href="https://www.soundonsound.com/reviews/digidesign-c24">C|24 Pro Tools Control Surface</a></li>
-						</ul>
-						<li class="first">Programming Languages</li>
-						<ul>
-							<li class="secondl"><a href="https://visualstudio.microsoft.com/">VB.NET 2015</a></li>
-							<li class="secondl"><a href="https://python.org/">Python</a></li>
-							<li class="secondl">C#<li>
-							<li class="secondl">HTML</li>
-							<li class="secondl">CSS</li>
-							<li class="secondl"><a href="https://git-scm.com/">Git</a></li>
-						</ul>
-						<li class="first">Storywriting</li>
-						<li class="first">Creative Thinking</li>
-						<li class="first">Youth First Aid</li>
-						<li class="first">Bronze D of E</li>
-						<li class="first">Full UK Driving Licence B</li>
+				<div class="col">
+					<h4 class="justify-content-center" onclick="DropdownSkill()" style="cursor:pointer;">Skills</h4>
+					<ul class="licenter" id="skills" style="display:none;">
+					<li class="first">Music Software</li>
+					<ul>
+						<li class="secondr"><a href="https://www.avid.com/pro-tools">Pro Tools</a></li>
+						<li class="secondr"><a href="https://www.apple.com/uk/logic-pro/">Logic Pro</a></li>
+						<li class="secondr"><a href="https://new.steinberg.net/cubase/">Cubase</a></li>
+					</ul>
+					<li class="first">Music Hardware</li>
+					<ul>
+						<li class="secondr"><a href="https://www.allen-heath.com/ahproducts/qu-32/">Allen & Heath QU-32</a></li>
+						<li class="secondr"><a href="https://www.soundonsound.com/reviews/digidesign-c24">C|24 Pro Tools Control Surface</a></li>
+					</ul>
+					<li class="first">Programming Languages</li>
+					<ul>
+						<li class="secondr"><a href="https://visualstudio.microsoft.com/">VB.NET 2015</a></li>
+						<li class="secondr"><a href="https://python.org/">Python</a></li>
+						<li class="secondr">C#<li>
+						<li class="secondr">HTML</li>
+						<li class="secondr">CSS</li>
+						<li class="secondr"><a href="https://git-scm.com/">Git</a></li>
+					</ul>
+					<li class="first">Storywriting</li>
+					<li class="first">Creative Thinking</li>
+					<li class="first">Youth First Aid</li>
+					<li class="first">Bronze D of E</li>
+					<li class="first">Full UK Driving Licence B</li>
 					</ul>
 				</div>
-				<div class="col-6">
-					<ul id="leright">
-						<li class="first"><a href="https://www.coursera.org/">Coursera</a></li>
+
+				<div class="col"><h4>&</h4></div>
+
+				<div class="col">
+					<h4 class="justify-content-center" onclick="DropdownAchiev()" style="cursor:pointer;">Achievements</h4>
+					<ul class="licenter" id="achiev" style="display:none;">
+					<li class="first"><a href="https://www.coursera.org/">Coursera</a></li>
+					<ul>
+						<li class="secondr">Yale University</li>
 						<ul>
-							<li class="secondr">Yale University</li>
-							<ul>
-								<li class="thirdr">Introduction to Psychology</li>
-							</ul>
-							<li class="secondr">University Of California</li>
-							<ul>
-								<li class="thirdr">the Strategy of Content Marketing</li>
-							</ul>
+							<li class="thirdr">Introduction to Psychology</li>
 						</ul>
-						<li class="first"><a href="https://grimsby.ac.uk/">Grimsby Institute</a></li>
-						<ul>
-							<li class="secondr">Level 3 Music Practitioner</li>
-						</ul>
-						<li class="first"><a href="https://www.franklin.ac.uk/">Franklin College</a></li>
-						<ul>
-							<li class="secondr">A-Level Maths</li>
-							<li class="secondr">A-Level Computer Science</li>
-							<li class="secondr">Btec Applied Science Award</li>
-							<li class="secondr">Btec 90-Credit Science</li>
-						</ul>
-						<li class="first"><a href="https://www.somercotesacademy.co.uk/">Birkbeck School</a></li>
-						<ul>
-							<li class="secondr">Maths</li>
-							<li class="secondr">English</li>
-							<li class="secondr">Science</li>
-						</ul>
+					</ul>
+					<li class="first"><a href="https://grimsby.ac.uk/">Grimsby Institute</a></li>
+					<ul>
+						<li class="secondr">Level 3 Music Practitioner</li>
+					</ul>
+					<li class="first"><a href="https://www.franklin.ac.uk/">Franklin College</a></li>
+					<ul>
+						<li class="secondr">A-Level Maths</li>
+						<li class="secondr">A-Level Computer Science</li>
+						<li class="secondr">Btec Applied Science Award</li>
+						<li class="secondr">Btec 90-Credit Science</li>
+					</ul>
+					<li class="first"><a href="https://www.somercotesacademy.co.uk/">Birkbeck School</a></li>
+					<ul>
+						<li class="secondr">Maths</li>
+						<li class="secondr">English</li>	
+						<li class="secondr">Science</li>
+					</ul>
 					</ul>
 				</div>
 			</div>
@@ -251,6 +250,8 @@
 				<input class="btn btn-outline-dark" type="submit" id="submit">
 			</form>
 		</section>
+				<!-- Javascript -->
+		<script src="resources/dropdown_list.js"></script>
 	</body>
 	
 	<footer class="light-grey">

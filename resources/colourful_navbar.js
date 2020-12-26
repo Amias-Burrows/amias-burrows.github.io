@@ -17,7 +17,7 @@ function colourChanger() {
 		debugBtn.classList.add("btn-outline-light");
 		ccBtn.classList.remove("btn-outline-dark");
 		ccBtn.classList.add("btn-outline-light");
-		image.src = "resources/images/Amias_logo_light.png";
+		image.src = "resources/images/rsz_Amias_logo_light.png";
 	} else if (colour == "dark") {
 		colour = "light";
 
@@ -29,6 +29,6 @@ function colourChanger() {
 		debugBtn.classList.add("btn-outline-dark");
 		ccBtn.classList.remove("btn-outline-light");
 		ccBtn.classList.add("btn-outline-dark");
-		image.src = "resources/images/Amias_logo_dark.png";
+		image.src = "resources/images/rsz_Amias_logo_dark.png";
 	};
 };

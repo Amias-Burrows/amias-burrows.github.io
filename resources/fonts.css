@@ -1,45 +1,49 @@
 h1 {
-	font: 700 2rem/1.2 "Raleway";
+	font: 700 1.15rem/1.2 "Raleway";	/* 2rem */
 	color: hsl(000, 0%, 33%);
-	text-align: center:
+	text-align: center;
 }
 
 h2 {
-	font: 100 1.25rem/1.2 "Raleway";
+	font: 100 0.9rem/1.2 "Raleway";	/* 1.25rem */
 	color: hsl(000, 0%, 33%);
 	text-align: center;
 }
 
 h3 {
-	font: 600 1.2rem/1.2 "Raleway";
+	font: 600 0.85rem/1.2 "Raleway";		/* 1.2rem */
 	color: hsl(174, 72%, 56%);
 	text-align: center;
 }
 
 h4 {
-	font: 700 1.5rem/1.2"Raleway";
+	font: 700 1rem/1.2"Raleway";		/* 1.5rem */
 	color: hsl(60, 3%, 53%);
 	text-align: center;
 }
 
 h5 {
-	font: 500 1rem/1.2 "Raleway";
+	font: 500 0.8rem/1.2 "Raleway";		/* 1rem */
 	color: hsl(60, 3%, 53%);
 	text-align: center;
 }
 
 p {
-	font: 400 1rem/1.5 "Raleway";
+	font: 400 0.65rem/1.5 "Raleway";		/* 1rem */
 	color: hsl(000, 0%, 33%);
 	text-align: center;
 }
 
 li {
-	font: 400 1rem/1.5 "Raleway";
+	font: 400 0.65rem/1.5 "Raleway";		/* 1rem */
 	color: hsl(000, 0%, 33%);
 }
 
 label {
-	font: 100 1rem/1.2 "Raleway";
+	font: 100 0.65rem/1.2 "Raleway";		/* 1rem*/
 	color: hsl(000, 0%, 33%);
+}
+
+input, textarea {
+	font: 100 0.65rem/1.2 "Raleway";
 }

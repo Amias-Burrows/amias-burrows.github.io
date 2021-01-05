@@ -1,0 +1,17 @@
+body {
+	background-color: white; /* hsl(170, 95%, 93%);*/
+	padding: 20px 0 35px 0;
+}
+
+#skillsButton, #achievButton {
+	cursor: pointer;
+}
+
+section {
+	padding: 10px 5px 10px 5px;
+}
+
+textarea, input {
+	resize: none;
+	width: 100%;
+}

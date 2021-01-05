@@ -1,7 +1,19 @@
-.parallax{
+.parallaxImage{
 	min-height: 500px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.coding {
+	background-image: url(images/code.jpg);
+}
+
+.music {
+	background-image: url(images/recording-studio.jpg);
+}
+
+.writing {
+	background-image: url(images/typewriter.jpg);
 }

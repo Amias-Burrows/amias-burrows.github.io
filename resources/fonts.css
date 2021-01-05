@@ -8,12 +8,14 @@ h2 {
 	font: 100 0.9rem/1.2 "Raleway";	/* 1.25rem */
 	color: hsl(000, 0%, 33%);
 	text-align: center;
+	margin: 0 10px 0 10px;
 }
 
 h3 {
 	font: 600 0.85rem/1.2 "Raleway";		/* 1.2rem */
 	color: hsl(174, 72%, 56%);
 	text-align: center;
+	margin: 10px 0 5px 0;
 }
 
 h4 {

@@ -1,0 +1,35 @@
+.white{
+	background-color: white;
+}
+
+.white p, .cream p {
+	color: black;
+}
+
+.cream{
+	background-color: hsl(57.4,100%,87%);
+}
+
+.transparent{
+	background-color: transparent;
+}
+
+.grey {
+	background: #2B2D30;
+}
+
+.light-grey p, .blue p {
+	color: white;
+}
+
+.grey p {
+	hsl(000, 0%, 33%);
+}
+
+.light-grey {
+	background: grey;
+}
+
+.blue {
+	background: hsl(170,95%,93%);
+}

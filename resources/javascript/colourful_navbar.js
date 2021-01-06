@@ -17,7 +17,7 @@ function colourChanger() {
 		debugBtn.classList.add("btn-outline-light");
 		ccBtn.classList.remove("btn-outline-dark");
 		ccBtn.classList.add("btn-outline-light");
-		image.src = "resources/images/personal/amias_logo_light.png";
+		image.src = "https://amias-burrows.co.uk/resources/images/personal/amias_logo_light.png";
 	} else if (colour == "dark") {
 		colour = "light";
 
@@ -29,6 +29,6 @@ function colourChanger() {
 		debugBtn.classList.add("btn-outline-dark");
 		ccBtn.classList.remove("btn-outline-light");
 		ccBtn.classList.add("btn-outline-dark");
-		image.src = "resources/images/personal/amias_logo_dark.png";
+		image.src = "https://amias-burrows.co.uk/resources/images/personal/amias_logo_dark.png";
 	};
 };

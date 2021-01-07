@@ -1,5 +1,5 @@
 var parallax = document.querySelectorAll(".parallaxImage");
-var images = ['coding', 'music', 'writing'];
+var images = ['coding', 'music', 'writing', 'code', 'library'];
 
 for (let i = images.length - 1; i > 0; i--)
 {

@@ -22,7 +22,7 @@
 	color: white;
 }
 
-.grey p, backDark p {
+.grey p {
 	color: hsl(000, 0%, 33%);
 }
 
@@ -38,6 +38,10 @@
 
 .backDark {
 	background: hsl(180, 3%, 19%);
+}
+
+.backDark p {
+	color: hsl(000, 0%, 33%);
 }
 
 .backLight {

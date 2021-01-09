@@ -9,7 +9,7 @@ for (let i = images.length - 1; i > 0; i--)
 	images[j] = temp;
 };
 
-for (var i = 0; i < 3; i++)
+for (var i = 0; i < parallax.length; i++)
 {
 	parallax[i].classList.add(images[i]);
 };

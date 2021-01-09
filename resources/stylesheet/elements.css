@@ -18,4 +18,9 @@ textarea, input {
 
 article {
 	margin: 20px;
+	border-radius: 5%;
+}
+
+.endOfPosts {
+	height: 200px;
 }

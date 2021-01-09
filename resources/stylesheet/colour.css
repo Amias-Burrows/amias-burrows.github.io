@@ -2,7 +2,7 @@
 	background-color: white;
 }
 
-.white p, .cream p {
+.white p, .cream p, .blue p{
 	color: black;
 }
 
@@ -15,35 +15,31 @@
 }
 
 .grey {
-	background: #2B2D30;
+	background-color: #2B2D30;
 }
 
-.light-grey p, .blue p {
+.light-grey p {
 	color: white;
 }
 
-.grey p, backDark p {
+.grey p {
 	color: hsl(000, 0%, 33%);
 }
 
 .light-grey {
-	background: grey;
+	background-color: grey;
 }
 
 .blue {
-	background: hsl(170,95%,93%);
+	background-color: hsl(170,95%,93%);
 }
 
 /* Background */
 
 .backDark {
-	background: hsl(180, 3%, 19%);
+	background-color: hsl(180, 3%, 19%);
 }
 
 .backLight {
-	background: hsl(0, 0%, 91%);
-}
-
-.backLight p {
-	color: black;
+	background-color: hsl(0, 0%, 91%);
 }

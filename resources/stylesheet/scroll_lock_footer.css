@@ -19,6 +19,7 @@
 }
 
 footer{
+	border-top: solid hsl(000, 0%, 33%) 1px;
 	position: fixed;
 	left: 0px;
 	width: 100%;

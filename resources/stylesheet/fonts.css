@@ -39,6 +39,11 @@ p {
 li {
 	font: 400 0.65rem/1.5 "Raleway";
 	color: hsl(000, 0%, 33%);
+	list-style-type: none;
+}
+
+ul.centerList li{
+	text-align: center;
 }
 
 label {

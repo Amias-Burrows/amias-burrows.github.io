@@ -5,6 +5,7 @@ body {
 
 #skillsButton, #achievButton {
 	cursor: pointer;
+	text-decoration: underline;
 }
 
 section {
